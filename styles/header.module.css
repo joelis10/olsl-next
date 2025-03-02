@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* border-bottom: 1px solid #eaeaea; */
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+}
+
+.nav {
+  font-family: 'Loos Normal Light', sans-serif;
+  float: right;
+  display: flex;
+  align-items: center;
+  color: #14C24A;
+  font-weight: bold;
+}
+
+.nav * {
+  margin: 0 .5rem;
+}

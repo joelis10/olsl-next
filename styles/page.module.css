@@ -1,0 +1,83 @@
+/* Fonts */
+@font-face {
+  font-family: 'Loos Normal Light';
+  src: url('../fonts/Loos\ Normal\ Light.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Loos Normal Regular';
+  src: url('../fonts/Loos\ Normal\ Regular.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Loos Normal Bold';
+  src: url('../fonts/Loos\ Normal\ Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Components */
+a.dark {
+  background-color: #03AB93;
+  color: azure;
+}
+
+a.dark:hover {
+  background-color: #007765;
+}
+
+.bolded {
+  font-family: 'Loos Normal Bold';
+  color: #03AB93;
+}
+
+/* Page */
+.welcome {
+  background: center center / cover url('/welcome.jpg');
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.welcome .welcomeTitle {
+  font-family: 'Loos Normal Bold', sans-serif;
+  font-size: 5rem;
+  color: #03AB93;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px #000;
+}
+
+.welcome .welcomeSubtitle {
+  font-family: 'Loos Normal Bold', sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 0px #000;
+  width: 60%;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.welcome a:first-of-type {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .welcome .welcomeTitle {
+    font-size: 4rem;
+  }
+
+  .welcome .welcomeSubtitle {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
+
+.leadText {
+  padding: 40px;
+  font-size: 1.25rem;
+}
